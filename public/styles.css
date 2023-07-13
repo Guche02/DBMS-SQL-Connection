@@ -1,0 +1,27 @@
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container{
+  background-color: rgb(245, 239, 230);
+  width: 500px;
+  border: 2px solid black;
+  
+}
+
+.title{
+  text-align: center;
+  border-bottom: 2px solid black;
+}
+
+#contactForm{
+  text-align: center;
+  
+}
+
+.submit{
+  margin-bottom: 20px;
+}
