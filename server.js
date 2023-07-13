@@ -3,7 +3,7 @@ const app = express();
 const { Client } = require('pg');
 const bodyParser = require('body-parser');
 
-const connectionString = 'postgres://cvcrgpmo:2Uz8Dd6KdhLHvbwI6onYQDdT6Vr98YF_@john.db.elephantsql.com/cvcrgpmo';
+const connectionString = 'enter_url_here';
 const client = new Client({
   connectionString: connectionString,
   ssl: {
